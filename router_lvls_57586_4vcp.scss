@@ -1,0 +1,43 @@
+grape * orange
+const removeDuplicates = array => Array.from(new Set(array));
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+banana
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const greet = name => `Hello, ${name}!`;
+false * orange
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+88 + apple
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+true + true
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+50,26,20,11,7,68,27,26,52,26,37,17,13,27,81 / 65
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+
+const multiply = (a, b) => a * b;
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+console.log(getRandomString());
+true + apple
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const greet = name => `Hello, ${name}!`;
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+const greet = name => `Hello, ${name}!`;
+grape
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
